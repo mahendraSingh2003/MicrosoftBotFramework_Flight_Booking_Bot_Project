@@ -1,8 +1,24 @@
 # FBBOT
 
-make reservation for flight
+# ✈️ MicrosoftBotFramework_Flight_Booking_Bot_Project
 
-This bot has been created using [Bot Framework](https://dev.botframework.com), it shows how to create a simple bot that accepts input from the user and echoes it back.
+A feature-rich flight booking bot built using [Microsoft Bot Framework](https://dev.botframework.com). This chatbot allows users to search, filter, and book flights using natural language. It supports real-time data from the Amadeus API, multilingual support, and secure payment via Stripe.
+
+---
+
+## 🚀 Features
+
+- 🗣️ Conversational flight search
+- 🌍 City-to-IATA resolution
+- 🔍 Real-time flight offers (Amadeus API)
+- 💲 Price comparison and filtering
+- 🛫 Airline, class, layover, and duration filters
+- 📅 Flexible date input (e.g., "next Friday")
+- 🔐 Stripe payment integration
+- 🌐 Multilingual support via Azure Translator
+- 🧠 Smart entity recognition via CLU
+- ☁️ Azure-ready deployment templates
+
 
 ## Prerequisites
 
