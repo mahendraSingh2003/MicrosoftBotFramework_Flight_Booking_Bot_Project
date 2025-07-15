@@ -1,0 +1,42 @@
+{
+    "name": "FBBOT",
+    "version": "1.0.0",
+    "description": "make reservation for flight",
+    "author": "Generated using Microsoft Bot Builder Yeoman generator v4.22.1",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./index.js",
+        "watch": "nodemon ./index.js",
+        "lint": "eslint .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com"
+    },
+    "dependencies": {
+        "@azure/ai-language-conversations": "^1.0.0-beta.1",
+        "amadeus": "^11.0.0",
+        "axios": "^1.10.0",
+        "botbuilder": "~4.22.1",
+        "botbuilder-dialogs": "^4.17.0-blobs1",
+        "dayjs": "^1.11.13",
+        "dotenv": "~8.2.0",
+        "i18n": "^0.15.1",
+        "mysql2": "^3.14.1",
+        "razorpay": "^2.9.6",
+        "restify": "~11.1.0",
+        "sequelize": "^6.37.7",
+        "stripe": "^18.3.0"
+    },
+    "devDependencies": {
+        "eslint": "^7.0.0",
+        "eslint-config-standard": "^14.1.1",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1",
+        "nodemon": "^2.0.22"
+    }
+}
